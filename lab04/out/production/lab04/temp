@@ -1,0 +1,10 @@
+
+
+
+int sum = 0;
+for(int i = 0; i < data.length; i++){
+    int owlAge = data[i].getAge();
+    sum += owlAge;
+}
+double average = (double)sum / data.length;
+return average;
